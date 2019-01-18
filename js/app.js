@@ -1,8 +1,6 @@
     // window.onload=getEXIF;
     (function($) {
 
-    var EXIF = require('exif-js');
-
     var dropZone = document.getElementById('drop-zone');
     var uploadForm = document.getElementById('js-upload-form');
     var list = document.querySelector('.list-group');
