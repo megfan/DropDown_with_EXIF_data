@@ -26,7 +26,6 @@
         return false;
     }
     var startUpload = function(files) {
-        console.log(files)
         addingData([...files]);
     }  
     // map
@@ -61,7 +60,6 @@
             EXIF.getData(item, function(){
                 const long = EXIF.getTag(this, "GPSLongitude");
                 const lat = EXIF.getTag(this, "GPSLatitude");
-                console.log(lat, long);
                 
                 long === undefined || lat === undefined 
                     ? errorEXIF()
