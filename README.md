@@ -4,10 +4,10 @@
 DropDown_with_EXIF_data created as a short excercise with Bootstrap and EXIF format.
 
 ## View:
-[DropDown_with_EXIF_data](https://megfan.github.io)
+[DropDown_with_EXIF_data](https://megfan.github.io/DropDown_with_EXIF_data/)
 
 ## Built With
-
+ 
 
 * Html5
 * CSS
